@@ -1,2 +1,9 @@
 CREATE DATABASE flask IF NOT EXISTS,
 use flask;
+
+CREATE TABLE users IF NOT EXISTS(
+    id INT(10) AUTO_INCREMENT,
+    name VARCHAR(255)
+    email VARCHAR(255)
+    pass VARCHAR(25)
+);
